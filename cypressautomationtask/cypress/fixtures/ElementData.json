@@ -1,0 +1,12 @@
+{
+    "locators": {
+        "SearchBarId": "twotabsearchtextbox",
+        "searchResults_xpath": "//div[contains(@class, 'asin')]//span[contains(@class, 'a-size-base-plus a-color-base a-text-normal')]",
+        "BrandFilter_xpath_1": "//div[@id='brandsRefinements']//ul[1]/li[",
+        "BrandFilter_xpath_2": "]",
+        "CustomerReviewFilter_xpath1": "//div[@id='reviewsRefinements']//ul//li[",
+        "CustomerReviewFilter_xpath2": "]//i/span",
+        "selectedProduct_xpath": "//div[contains(@class, 'asin')][1]",
+        "AddToCartButton_id": "add-to-cart-button"
+    }
+}

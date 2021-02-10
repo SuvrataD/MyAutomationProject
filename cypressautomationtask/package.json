@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomationtask",
+  "version": "1.0.0",
+  "description": "automationcytrial - E2E tests",
+  "private": true,
+  "scripts": {
+    "cypressOpen": "cypress open",
+    "cypressOpen:dev": "cypress open --config baseUrl=http://localhost:8080",
+    "cypressRun": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^6.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.1"
+  }
+}

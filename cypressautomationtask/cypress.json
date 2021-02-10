@@ -1,0 +1,7 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "https://google.com",
+    "env": {
+        "TAGS": "search"
+    }
+}
